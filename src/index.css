@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* =====================
+   CSS CUSTOM PROPERTIES
+   ===================== */
+:root {
+  /* Colors */
+  --bg-primary: #080810;
+  --bg-surface: #0f0f1a;
+  --bg-card: #13131f;
+
+  --accent-violet: #7c3aed;
+  --accent-cyan: #06b6d4;
+  --accent-amber: #f59e0b;
+  --accent-pink: #ec4899;
+
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+
+  /* Fonts */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+/* =====================
+   BASE STYLES
+   ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* =====================
+   TYPOGRAPHY
+   ===================== */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+}
+
+/* =====================
+   SCROLLBAR 
+   ===================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-violet);
+  border-radius: 3px;
+}
+/* =====================
+   RESPONSIVE NAVBAR
+   ===================== */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-menu-btn {
+    display: block !important;
+  }
+}
