@@ -75,7 +75,7 @@ export const achievements = [
     subtitle: 'Google · May 2026',
     description: 'Awarded by Google Student Ambassador Program for crafting a standout prompt that transformed into an innovative game using Gemini Canvas.',
     color: '#06b6d4',
-    image: '/src/assets/certificates/google-prompt.png',
+    image: 'certificates/google-prompt.png',
   },
   {
     icon: 'FiZap',
@@ -83,7 +83,7 @@ export const achievements = [
     subtitle: 'GITAM University · 2026',
     description: 'Participated in a 6-Hour Hackathon focused on AR/VR and AI/ML problem statements in collaboration with the Center for Extended Reality (CXR).',
     color: '#7c3aed',
-    image: '/src/assets/certificates/gitam-hackathon.png',
+    image: 'certificates/gitam-hackathon.png',
   },
   {
     icon: 'FiCode',
@@ -91,7 +91,7 @@ export const achievements = [
     subtitle: 'ANITS Samyukta · Aug 2025',
     description: 'Participated in the 6-Hour Solve for India HackJam at Samyukta 2025 — a national-level student innovation summit at ANITS.',
     color: '#ec4899',
-    image: '/src/assets/certificates/samyukta-hackjam.png',
+    image: 'certificates/samyukta-hackjam.png',
   },
   {
     icon: 'FiAward',
@@ -99,7 +99,7 @@ export const achievements = [
     subtitle: 'Google + AWS · Aug 2025',
     description: 'Completed a two-day technical workshop on AI by Google and Cloud Computing by AWS at Samyukta 2025, ANITS.',
     color: '#f59e0b',
-    image: '/src/assets/certificates/samyukta-workshop.png',
+    image: 'certificates/samyukta-workshop.png',
   },
 ]
 
@@ -109,20 +109,20 @@ export const certifications = [
     issuer: 'Cisco Networking Academy',
     date: 'Feb 2026',
     color: '#06b6d4',
-    image: '/src/assets/certificates/cisco-python.png',
+    image: 'certificates/cisco-python.png',
   },
   {
     title: 'Exploring Networking with Packet Tracer',
     issuer: 'Cisco Networking Academy',
     date: 'Oct 2025',
     color: '#7c3aed',
-    image: '/src/assets/certificates/cisco-networking.png',
+    image: 'certificates/cisco-networking.png',
   },
   {
     title: 'Getting Started with Packet Tracer',
     issuer: 'Cisco Networking Academy',
     date: 'Oct 2025',
     color: '#f59e0b',
-    image: '/src/assets/certificates/cisco-packet-tracer.png',
+    image: 'certificates/cisco-packet-tracer.png',
   },
 ]
